@@ -1,15 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import AuthSystem from './page/login.jsx'
-
+import MessMembersDirectory from './page/members.jsx'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <AuthSystem></AuthSystem>
+    <MessMembersDirectory></MessMembersDirectory>
+    {/* <AuthSystem></AuthSystem> */}
     </>
   )
 }
