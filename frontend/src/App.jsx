@@ -7,10 +7,12 @@ import NotificationsPage from './page/notificationPage.jsx'
 import FeedbackForm from './page/Feedback.jsx'
 import Navbar from './page/nav.jsx'
 import WeeklyMenu from './page/menu.jsx'
+import HomePage from './page/Home.jsx'
 function App() {
   return (
     <div>
       <Navbar></Navbar>
+      <HomePage></HomePage>
       <Routes>
         <Route path="/members" element={<MessMembersDirectory/>} />
         <Route path="/login" element={<AuthSystem/>} />
